@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="game"></canvas>
+    <div id="loader">
+        <h1 id="title">SHAMANZ ESCAPE RUN</h1>
+        <h3><button mat-fab><mat-icon>Created by 🍉MARK🍉 #7112</mat-icon></button></h3>
+
+        <img src="file:///Users/sidane/Downloads/shama3.png">
+        <audio id="music" src="https://raw.githubusercontent.com/dada542/just-platformer-game/main/04%20-%20the%20croutonian%20ship.mp3"></audio>
+        <span id="loader-text">loading...</span>
+        <!--<span id="likes">Likes for 2nd part: ?/200</span>-->
+    </div>
+    <div id="button1" class="button">
+        <span>left</span>
+    </div>
+    <div id="button2" class="button">
+        <span>right</span>
+    </div>
+    <div id="button3" class="button">
+        <span>shoot</span>
+    </div>
+    <div id="button4" class="button">
+        <span>jump</span>
+    </div>
+</body>
+
+</html>
